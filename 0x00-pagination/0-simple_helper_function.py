@@ -7,7 +7,6 @@ corresponding to the range of indexes to return in a list
 for those particular pagination parameters.
 Page numbers are 1-indexed, i.e. the first page is page 1"""
 
-from typing import Tuple
 
 def index_range(page: int, page_size: int) -> tuple:
     # start index and an end index that correlates with the range of
