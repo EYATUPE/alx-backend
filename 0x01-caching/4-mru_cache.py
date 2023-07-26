@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""a class MRUCache that inherits from
+"""a class Most Recently Used Cache that inherits from
 BaseCaching and is a caching system
 """
 from collections import OrderedDict
