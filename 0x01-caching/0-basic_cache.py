@@ -9,8 +9,7 @@ class BasicCache(BaseCaching):
     """
 
     def put(self, key, item):
-        """assigns key and item to the dictionary or cache
-        """
+        """assigns key and item to the dictionary or cache"""
         if key is None or item is None:
             pass
         else:
